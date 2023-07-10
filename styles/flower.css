@@ -10,7 +10,18 @@ body {
 /* header section style here */
 header {
     background: rgba(229, 84, 115, 0.10);
+
 }
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+
+
 
 
 .header-title {
@@ -34,13 +45,10 @@ header {
 }
 
 
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 100px 0px 100px;
-    gap: 100px;
-}
+
+
+
+
 
 
 .btn-primary {
@@ -58,28 +66,17 @@ header {
 
 
     /* featured flower section styles here  */
-.featured-container {
-    margin-top: 178px;
-    width: 60%;
-    margin: auto;
-}
-
 
 .featured-title {
     color: #272727;
     text-align: center;
+    margin-top: 178px;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     margin-bottom: 24px;
     }
-
-
-
-
-
-   
 
 
 .featured-description {
@@ -95,49 +92,20 @@ header {
 }
 
 
-
-.all-flower {
+.images {
     display: flex;
-    width: 80%;
-    justify-content: space-between;
-    margin: auto;
-        
+    justify-content: center;
+    gap: 15px;
+    
 }
 
-.featured-image-one {
+
+.image {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding: 110px 78px 0px 78px;
-    width: 310px;
-    height: 428px;
+    width: 364px;
+    height: 438px;
 }
 
 
-.featured-image-two {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
-    padding: 117px 47px 51px 47px;
-    width: 370px;
-    height: 370px;
-}
-
-
-.featured-image-three {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
-    padding: 67px 75px 0px 75px;
-    width: 314px;
-    height: 471px;
-}
-
-.flower-name {
-    text-decoration: underline;
-    color: #272727;
-    text-align: center;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px;
-    text-decoration-line: underline;
-    margin-top: 32px;
-}
+/* service section styles  */
