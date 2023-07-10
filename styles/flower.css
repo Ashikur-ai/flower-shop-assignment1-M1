@@ -55,3 +55,89 @@ header {
     font-weight: 700;
     line-height: normal;
     }
+
+
+    /* featured flower section styles here  */
+.featured-container {
+    margin-top: 178px;
+    width: 60%;
+    margin: auto;
+}
+
+
+.featured-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+    }
+
+
+
+
+
+   
+
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 594px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+
+
+.all-flower {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+        
+}
+
+.featured-image-one {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0px 78px;
+    width: 310px;
+    height: 428px;
+}
+
+
+.featured-image-two {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 51px 47px;
+    width: 370px;
+    height: 370px;
+}
+
+
+.featured-image-three {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 67px 75px 0px 75px;
+    width: 314px;
+    height: 471px;
+}
+
+.flower-name {
+    text-decoration: underline;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 32px;
+}
