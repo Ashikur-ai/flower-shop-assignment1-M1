@@ -7,6 +7,11 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+
+.color-primary {
+    color:#E55473;
+}
+
 /* header section style here */
 header {
     background: rgba(229, 84, 115, 0.10);
@@ -136,3 +141,47 @@ header {
 .service {
     margin: 128px 0px;
 }
+
+
+/* deal section styles here  */
+.deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 128px;
+}
+
+
+.deal-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0px;
+}
+
+
+.deal-item {
+    width: 50%;
+    text-align: center;
+    padding: 100px;
+}
+
