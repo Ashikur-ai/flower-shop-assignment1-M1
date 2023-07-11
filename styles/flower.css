@@ -121,3 +121,18 @@ header {
     margin-top: 32px;
 }
 /* service section styles  */
+.service-container {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    padding: 80px 70px;
+    text-align: center;
+}
+
+
+.service {
+    margin: 128px 0px;
+}
